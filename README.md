@@ -1,1 +1,1 @@
-# checkers
+# OCaml Checkers
