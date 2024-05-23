@@ -16,7 +16,7 @@ test:
 	$(OCAMLBUILD) -tag 'debug' $(TEST) && ./$(TEST)
 
 play:
-	$(OCAMLBUILD) $(MAIN) && ./$(MAIN)
+	$(OCAMLBUILD) $(MAIN) && ./main.byte
 
 zip:
 	zip src.zip *.ml*  _tags Makefile

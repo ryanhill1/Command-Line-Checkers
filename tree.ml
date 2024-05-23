@@ -63,7 +63,7 @@ let all_moves state all_pieces : (bool * coordinate * coordinate) list =
 let calc_distance aipiece playerpiece = 
   let aipiece_int = int_of_string (snd aipiece) in
   let playerpiece_int = int_of_string (snd playerpiece) in
-  Pervasives.abs (aipiece_int - playerpiece_int)
+  Stdlib.abs (aipiece_int - playerpiece_int)
 
 (** [min_dist_coord coord_piece_list] is the coordinate with the lowest 
     associated distance argument from the tuple list [coord_piece_list] *)

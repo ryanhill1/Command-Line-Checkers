@@ -1,0 +1,57 @@
+# Ignore OCamlbuild files
+_build/
+*.o
+*.cm[iox]
+*.cmxa
+*.a
+*.cmi
+*.cmo
+*.cmt
+*.cmti
+*.cmx
+*.cmxs
+*.exe
+*.byte
+*.native
+*.annot
+*.prof
+
+# Editor/IDE files
+*~
+\#*\#
+.\#*
+*.swp
+*.swo
+*.orig
+.DS_Store
+.idea/
+.vscode/
+*.merlin
+
+# Opam files
+.opam/
+.opam-switch/
+_opam/
+.opam-switch/sources/
+
+# Dune files
+*.install
+*.utop
+.log/
+*.log
+_dune/
+.dune/
+
+# Coveralls reports
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# Generated documentation
+doc/
+docs/
+
+# Temporary files
+tmp/
+
